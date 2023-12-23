@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:photoalbum/pages/home.dart';
+import 'package:photoalbum/pages/home/home.dart';
 
 void main() {
   runApp(const MyApp());
