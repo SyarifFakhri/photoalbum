@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:photoalbum/common/x_file_eq.dart';
 import 'package:photoalbum/components/image_gallery.dart';
-import 'package:photoalbum/components/title_widget.dart';
+import 'package:photoalbum/components/title_logo.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
