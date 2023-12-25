@@ -3,7 +3,7 @@ import 'package:photoalbum/common/x_file_eq.dart';
 import 'package:photoalbum/components/image_card.dart';
 
 class ImageGallery extends StatelessWidget {
-  final Set<XFileEq> images;
+  final List<XFileEq> images;
 
   final double padding = 5;
 
