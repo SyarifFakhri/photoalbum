@@ -30,7 +30,7 @@ class _MyHomePageState extends State<HomePage> {
                 padding: const EdgeInsets.symmetric(
                     vertical: 10.0, horizontal: 16.0),
                 child: const Text(
-                  "October",
+                  "October", // todo: this shouldn't be hardcoded
                   textScaleFactor: 1.2,
                 ),
               ),
@@ -55,13 +55,14 @@ class _MyHomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: getImage,
         tooltip: 'Get Image',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.add_a_photo),
       ), // This trailing comma makes auto-formatting nicer for build methods.
       bottomNavigationBar:
           BottomNavigationBar(items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Gallery'),
+        BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Order'),
         BottomNavigationBarItem(
-            icon: Icon(Icons.contact_support), label: 'Contact'),
+            icon: Icon(Icons.account_circle), label: 'Profile'),
       ]),
     );
   }
